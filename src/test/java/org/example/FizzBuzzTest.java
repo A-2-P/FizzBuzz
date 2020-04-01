@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class FizzBuzzTest {
-    FizzBuzz fizzy;
+    IFizzBuzz fizzy;
     @Before
     public void init(){
         fizzy = new FizzBuzz();
